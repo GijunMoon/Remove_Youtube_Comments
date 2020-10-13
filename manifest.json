@@ -1,0 +1,16 @@
+{
+  "name": "유튜브 댓글 삭제기",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "유튜브 댓글 보지말고 즐겁게 영상을 즐깁시다.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "remove_yt.png",
+    "default_title": "유튜브 댓글 삭제기",
+    "default_popup": "info.html"
+  },
+  "permissions": ["https://*/*", "http://*/*"]
+}
